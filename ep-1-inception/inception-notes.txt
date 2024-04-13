@@ -1,0 +1,74 @@
+1. what is an emmet?
+ans: emmet is a web development tool help to generate the html and css code structure efficiently and quickly using abbrivations.
+For creating HTML: html:5;
+For create css: .container>.header+.content+.footer
+.container {
+    /* styles for container */
+}
+.container .header {
+    /* styles for header */
+}
+.container .content {
+    /* styles for content */
+}
+.container .footer {
+    /* styles for footer */
+}
+
+
+2. Difference between framework and library?
+ Library:
+ =========
+    * library is a collection of pre-written code/modules/functions or classes that developer can use to preform specific task or solve specific problems.
+    * It is typically designed to be flexible so that it can used for various project.
+    * Control flow of program remain with the developers.
+framework:
+==========
+    * The framework is comprehensive and structured collection of code that provide a foundation to build web applications.
+    * It specific dedicated structure on the application to define the flow of content.
+    * Developers build their applications within the framework's predefined structure, using hooks, callbacks, or inheritance to extend or customize its behavior.
+    * Frameworks typically provide a set of rules, conventions, and tools to streamline development, enforce best practices, and handle common tasks such as routing, database interaction, and authentication.
+3.What is CDN? Why do we use it?
+* CDN  stand for "content delivery newtork".
+* CDN's are geographically distributed group of server that cache the content close to the end user.
+* CDN allow the quick transfer of assets need for load the internet content, including html pages, stylesheet, javascript files, images, videos.
+Benifits:
+=========
+1. improve the loading time of a website.
+2. reducing the banwidth cost.
+3. increase content availability and redundancy.
+
+4. Why is React known as React?
+* It "reacts" quickly to the changes without reloading the whole page.
+
+5.What is crossorigin in script tag?
+* cross origin specific how to handle fetching of external scripts.
+* it has three attributes.
+    1. anonymous or "": it specifies fetching of exteranl script without sending the user credentials
+        syntax: cors headers and credentials flat set to "same-origin".
+    2. use-credentials: it specifies fetching of external script by sending the user credentials.
+        syntax: request cors headers and credential flag set to "include".
+6.What is diference between React and ReactDOM?
+* React provides a tools and concepts that define a component based user interface.
+* React DOM: It handle the task to render those interface in the web environment.
+Together they form a foundation of react web application
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+react.Development: 
+        * this is file used in the development phase. which includes the addition debugging tool and warning and helpful error message.
+        * it is large in file size, it may negatively impact the performance of your website.
+react.production:
+        * this version is optimised for the production use.
+        * it remove the addtional debugging tools and warnings and helpful error message.
+        * so it reduce the file size, so it increase the performance of our website.
+8. What is async and defer?
+ans: async and defer return a boolean value used along with a script tag to load and execute external scripts.
+    async cand defer has 3 scenarios, they are: 
+    1. script tag: while html parsing is going, once js compiler find script tag, it stop html parsing start loading script and start executing script once it is done the html parsing start again
+    2. async tag: while html parsing is going, parallelly once js compiler find script tag simantanuously load the script, once it is loaded stop html parsing starts executing script once it is done html parsing starts again.
+    3. defer tag: while html parsing is going, loading script also happened simantanuously, once html parsing completed, executing of the script start.
+For loading a webpage in the browser, 2thing will happen.
+1. hml parsing.
+2. load and execute script.
+
+
