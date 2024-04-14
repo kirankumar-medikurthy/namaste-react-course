@@ -1,0 +1,21 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+}
+.user-name {
+    font-family: 'Avnier Next';
+    font-weight: 400px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.user-icon img{
+    border-radius:50%;
+}
