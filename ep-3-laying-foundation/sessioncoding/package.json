@@ -1,0 +1,23 @@
+{
+  "name": "ep-3-laying-foundation",
+  "version": "1.0.0",
+  "description": "laying foundation episode 3",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "laying-foundation"
+  ],
+  "author": "kirankumar medikurthy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
