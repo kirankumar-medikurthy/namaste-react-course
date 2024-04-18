@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+    padding: 0px 20px
+}
+
+.logoName {
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.8;
+    color: orange;
+    font-family: 'Avnier Next';
+}
+.nav-items-container > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-items-container > ul > li {
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: "Avnier Next";
+    font-weight: 400;
+}
+
+.res-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.restaurant-card-container {
+    width: 300px;
+    height: 500px;
+    background-color: #f0f0f0;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.restaurant-card-container:hover {
+    box-shadow: 5px 5px 10px lightgrey;
+    border: 1px dotted black;
+    cursor: pointer;
+}
