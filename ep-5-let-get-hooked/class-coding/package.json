@@ -1,0 +1,23 @@
+{
+  "name": "namaste-food-web-app",
+  "version": "1.0.0",
+  "description": "namaste food web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "namaste-food-web-app"
+  ],
+  "author": "kirankumar-medikurthy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
