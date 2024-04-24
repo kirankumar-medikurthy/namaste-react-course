@@ -1,10 +1,10 @@
 import React from "react";
-import { MENU_DATA } from "../Utils/mockData"
+
 import { IMG_CDN_URL } from "../Utils/constants"
-const RestaurantCard = () => {
-  console.log('test kiran --->', 'checking ===>', MENU_DATA.data.menu?.items);
+const RestaurantCard = (props) => {
+  const data = props.menuData;
+  console.log('test kiran ---> checking ===>', data);
   const renderCard = () => {
-    const data = Object.values(MENU_DATA.data.menu?.items);
     return data?.map(({name,cloudinaryImageId,category,price,description}) => {
       return (
         <div className="restaurant-card-container">
