@@ -20,8 +20,8 @@ const RestaurantCard = (props) => {
           },
         }) => {
           return (
-            <Link to={`restaurant/${id}`}>
-              <div className="restaurant-card-container" key={id}>
+            <div className="restaurant-card-container" key={id}>
+              <Link to={`restaurant/${id}`}>
                 <img
                   className="food-image"
                   src={
@@ -31,15 +31,17 @@ const RestaurantCard = (props) => {
                   }
                   alt="food-image"
                 />
+              </Link>
+              <Link to={`restaurant/${id}`}>
                 <h2>{name}</h2>
-                <div className="cuisine-container">
-                  <div>{cuisines?.join(", ")}</div>
-                </div>
-                <div className="rating">{avgRating}</div>
-                <div className="delivery">35 minutes</div>
-                <div className="price">Rs:{costForTwo.split("for two")[0]}</div>
+              </Link>
+              <div className="cuisine-container">
+                <div>{cuisines?.join(", ")}</div>
               </div>
-            </Link>
+              <div className="rating">{avgRating}</div>
+              <div className="delivery">35 minutes</div>
+              <div className="price">Rs:{costForTwo.split("for two")[0]}</div>
+            </div>
           );
         }
       )
