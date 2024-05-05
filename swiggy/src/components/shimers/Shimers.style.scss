@@ -1,0 +1,30 @@
+.shimer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .restaurant-card-container {
+        width: 300px;
+        min-height: 500px;
+        background-image: linear-gradient(to right,
+                #e2e2e2 calc(50%),
+                #dcdcdc 50%,
+                #e6e6e6 calc(50%));
+        background-size: 0;
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+        border-radius: 10px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: calc(200% + 200px);
+            bottom: 0;
+            background-image: inherit;
+            animation: move 1s linear infinite;
+        }
+    }
+}

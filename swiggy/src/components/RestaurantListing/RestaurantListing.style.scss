@@ -1,0 +1,16 @@
+.restaurantlist-container {
+    padding: 10px 5px;
+    .restaurantlist-header {
+        min-height: 30px;
+        border-radius: 5px;
+        border-bottom: 1px solid gray;
+        opacity: 0.5;
+
+        .header-text {
+            font-size: 30px;
+            font-weight: 400px;
+            font-family: 'Avenier Next';
+            padding: 10px;
+        }
+    }
+}
