@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { RESTAURANT_MENU_LINK } from "../../utils/constants";
-import { RESTAURANTMENU } from "../../mockData/RestaurantMenu";
 import RestaurantMenuTitle from "../RestaurantMenuTitle/RestaurantMenuTitle.component";
 import CategoryAccordian from "../CategoryAccordian/CategoryAccordian.component";
 import Shimers from "../shimers/Shimers.component";
@@ -39,7 +38,6 @@ const RestaurantMenu = () => {
   useEffect(() => {
     fetchRestaurantMenu();
   }, []);
-  console.log("test kiran --->", "checking ===>", itemCategory, foodItem);
   return isLoading ? (
     <Shimers />
   ) : (

@@ -37,7 +37,6 @@ const RestaurantListing = () => {
         return item;
       }
     });
-    console.log("test kiran --->", "333checking ===>", refinedData);
     setRefinedRestaurantList(refinedData);
   };
   return (
