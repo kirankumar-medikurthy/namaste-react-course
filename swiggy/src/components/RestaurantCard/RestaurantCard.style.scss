@@ -62,3 +62,15 @@
         }
     }
 }
+.promoted-label {
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 10;
+    /* bottom: 0; */
+    left: 29px;
+    top: 208px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}

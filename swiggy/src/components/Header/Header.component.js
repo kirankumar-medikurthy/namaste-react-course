@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Header.style.scss";
 import { NAMASTE_FOOD_DEVELIRY_WEP_APP_LOGO } from "../../utils/constants";
 import { Link } from "react-router-dom";
 import { checkOnlineState } from "../../utils/onlinestatus";
+import UserContext from "../../utils/userContext";
 
 const Header = () => {
   const [btnText, setBtnText] = useState("Login");
@@ -13,6 +14,7 @@ const Header = () => {
       setBtnText("Login");
     }
   };
+  const { loggedInUser } = useContext(UserContext);
   return (
     <div className="homepage-container">
       <div className="header-logo-container">
@@ -29,7 +31,11 @@ const Header = () => {
             Status:{" "}
             <span
               className="dot"
-              style={{ width: "30px", height: "30px",backgroundColor: checkOnlineState() ? "red" : "black" }}
+              style={{
+                width: "30px",
+                height: "30px",
+                backgroundColor: checkOnlineState() ? "red" : "black",
+              }}
             ></span>
           </li>
           <li className="header-navigation-title">
@@ -46,6 +52,9 @@ const Header = () => {
           </li>
           <li className="header-navigation-title" onClick={handleBtnTextChange}>
             <Link to="/login">{btnText}</Link>
+          </li>
+          <li className="header-navigation-title">
+            <Link to="#">{loggedInUser}</Link>
           </li>
         </ul>
       </div>

@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { SWIGGY_RESTAURANT_API } from "../../utils/constants";
 import "./RestaurantListing.style.scss";
 import Shimers from "../shimers/Shimers.component";
-import RestaurantCard from "../RestaurantCard/RestaurantCard.component";
+import RestaurantCard, {
+  withPromotedLabel,
+} from "../RestaurantCard/RestaurantCard.component";
 import Search from "../../components/Search/Search.component";
+import UserContext from "../../utils/userContext";
 
 const RestaurantListing = () => {
   const [headerText, setHeaderText] = useState("");
@@ -39,6 +42,10 @@ const RestaurantListing = () => {
     });
     setRefinedRestaurantList(refinedData);
   };
+  // Promoted HigherOrderComponent
+  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+  const { loggedInUser, setUserInfo } = useContext(UserContext);
+  console.log("test kiran --->", "checking ===>", refinedRestaurantList);
   return (
     <div className="restaurantlist-container">
       {isLoading ? (
@@ -50,10 +57,35 @@ const RestaurantListing = () => {
             setSearchTxt={setSearchTxt}
             handleRefinedRestaurantData={handleRefinedRestaurantData}
           />
+          <div className="input">
+            <label>UserName</label>
+            <input
+              type="text"
+              placeholder="Search"
+              onChange={(e) => setUserInfo(e.target.value)}
+              value={loggedInUser}
+            />
+          </div>
           <div className="restaurantlist-header">
             <div className="header-text">{headerText}</div>
           </div>
-          <RestaurantCard RestaurantCardData={refinedRestaurantList} />
+          {/** if restauratant is promoted add promoted */}
+          <div className="restaurant-list-menu">
+            {refinedRestaurantList?.map((item) =>
+              item?.info?.id == "10576" ? (
+                <RestaurantCardPromoted
+                  RestaurantCardData={item}
+                  key={item?.info?.id}
+                />
+              ) : (
+                <RestaurantCard
+                  RestaurantCardData={item}
+                  key={item?.info?.id}
+                  loggedInUser={loggedInUser}
+                />
+              )
+            )}
+          </div>
         </>
       )}
     </div>
