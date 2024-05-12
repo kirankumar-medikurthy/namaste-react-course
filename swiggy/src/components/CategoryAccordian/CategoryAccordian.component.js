@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./CategoryAccordian.style.scss";
+import { useDispatch } from "react-redux";
 import { IMAGE_URL } from "../../utils/constants";
+import { addItem } from "../../utils/Store/cartSlice";
 
 const CategoryAccordian = ({ itemCategory, show, setShow }) => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -11,6 +13,11 @@ const CategoryAccordian = ({ itemCategory, show, setShow }) => {
       setOpenIndex(null);
     }
   };
+  const dispatch = useDispatch()
+  const addItemtoCart = (item) => {
+    // dispatch an action
+    dispatch(addItem(item))
+  }
   return (
     <div className="category-accordian-container">
       {itemCategory?.map((item, index) => (
@@ -47,7 +54,7 @@ const CategoryAccordian = ({ itemCategory, show, setShow }) => {
                       alt={subItem?.card?.info.name}
                     />
                   </div>
-                  <div className="AddBtn">ADD</div>
+                  <button className="AddBtn" onClick={() => addItemtoCart(subItem)}>ADD</button>
                 </div>
               </div>
             ))}

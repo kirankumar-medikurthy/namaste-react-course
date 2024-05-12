@@ -19,15 +19,15 @@ const App = () => {
   }
   return (
     <Provider store={appStore}>
-    <UserContext.Provider value={{ loggedInUser: userInfo, setUserInfo }}>
-      {/** UserInfo : Kiran Kumar */}
-      <div className="AppLayout">
-        <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}>
-          <Header />
-        </UserContext.Provider>
-        <Outlet />
-      </div>
-    </UserContext.Provider>
+      <UserContext.Provider value={{ loggedInUser: userInfo, setUserInfo }}>
+        {/** UserInfo : Kiran Kumar */}
+        <div className="AppLayout">
+          <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}>
+            <Header />
+          </UserContext.Provider>
+          <Outlet />
+        </div>
+      </UserContext.Provider>
     </Provider>
   );
 };
