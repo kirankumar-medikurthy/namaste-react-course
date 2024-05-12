@@ -1,0 +1,1048 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Grameen Kulfi",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "352791",
+              "name": "Grameen Kulfi",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "grameen-koramangla-koramangala",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "gjcslopkyvnsc1gjjguq",
+              "locality": "8th Block",
+              "areaName": "Koramangala",
+              "costForTwo": "12000",
+              "costForTwoMessage": "₹120 for two",
+              "cuisines": ["Ice Cream", "Desserts"],
+              "avgRating": 4.8,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "352791",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE"
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  }
+                ],
+                "title": "Delivery Charge",
+                "amount": "0",
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "<b>1.4 kms</b> | ₹0 Delivery fee will apply"
+              },
+              "parentId": "12175",
+              "avgRatingString": "4.8",
+              "totalRatingsString": "500+ ratings",
+              "sla": {
+                "restaurantId": "352791",
+                "deliveryTime": 25,
+                "minDeliveryTime": 20,
+                "maxDeliveryTime": 25,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1,
+                "slaString": "20-25 MINS",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-05-12 23:30:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get every item under 99",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item under 99",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Claim double offer",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item under 99",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Claim your extra offer",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "grameen-koramangla-koramangala",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "s Shop No 241,2nd/D,Main Road 8'th block,Koramangala-560095"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 500,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get every item under 99",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item under 99",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Claim double offer",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item under 99",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Claim your extra offer",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ]
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/352791"
+              },
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {}
+                    },
+                    "linkCta": {}
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "12.94171,77.615941",
+              "backgroundImageOverlayInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 1,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "EVERY ITEM @ ₹99",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["bb286bc1-1932-4d3e-bc40-ec064d453e42"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "offerType": "offers",
+                      "restId": "352791",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {},
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1830309",
+                          "creativeId": "TopPicks/AlMSKulfi",
+                          "title": "Alphonso Mango Stick Kulfi",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "66343533",
+                              "name": "Alphonso Mango Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | Enjoy Summer-y Kulfi made with the King of Fruits -- Alphonso Mango pulp is combines with rich milk Rabdi, slow-churned for hours. Kcal/serving: 148",
+                              "imageId": "jugrtzpblxxgfg2akq2q",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1830406",
+                          "creativeId": "TopPicks/CStiKulfi",
+                          "title": "Chocolate Stick Kulfi",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "66343520",
+                              "name": "Chocolate Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | A Chocolate lover's delight, made special with decadent Chocolate folded into 100% pure milk Rabdi slow-churned for hours. Kcal/serving: 166",
+                              "imageId": "ofp4d0pglfvpdcd4hrso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {}
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1830756",
+                          "creativeId": "TopPicks/DMSKufi",
+                          "title": "Desi Malai Slice Kulfi (pack Of 3)",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "66343492",
+                              "name": "Desi Malai Slice Kulfi (pack Of 3)",
+                              "category": "Slice Kulfi",
+                              "description": "Serves 1 | Pack of 3 Kulfi slices bundled for every occasion big or small! Enjoy our Desi Malai Kulfi in all its glory, 1 is just not be enough! Kcal/serving: 215",
+                              "imageId": "nsrvvftbrwrqezswgjqn",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16102,
+                              "finalPrice": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343536",
+                              "name": "Shahi Gulkand Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | This desi kulfi is folded with aromatic Gulkand into 100% Pure milk Rabdi slow-churned for hours. Kcal/serving: 161",
+                              "imageId": "ibgyfkmcyfyoeq9pfrp4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "70 ratings",
+                                  "ratingCountV2": "70"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343533",
+                              "name": "Alphonso Mango Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | Enjoy Summer-y Kulfi made with the King of Fruits -- Alphonso Mango pulp is combines with rich milk Rabdi, slow-churned for hours. Kcal/serving: 148",
+                              "imageId": "jugrtzpblxxgfg2akq2q",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "104 ratings",
+                                  "ratingCountV2": "104"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343529",
+                              "name": "Anjeer Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | This royal-like treat, is loaded with Anjeer (figs) folded into creamy 100% Pure milk Rabdi slow-churned for hours, fits perfectly for the small wins in life! Kcal/serving: 164",
+                              "imageId": "nnnz36fpds12nvtzokuc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "35 ratings",
+                                  "ratingCountV2": "35"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343522",
+                              "name": "Butterscotch Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | Say Hi! to our kulfi made trendy, with crunchy Butterscotch bits folded into a creamy 100% Pure milk Rabdi slow-churned for hours. Kcal/serving: 163",
+                              "imageId": "tu2zuyflbvfi1fyf3plg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343520",
+                              "name": "Chocolate Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | A Chocolate lover's delight, made special with decadent Chocolate folded into 100% pure milk Rabdi slow-churned for hours. Kcal/serving: 166",
+                              "imageId": "ofp4d0pglfvpdcd4hrso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "50 ratings",
+                                  "ratingCountV2": "50"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343519",
+                              "name": "Desi Malai Matka Kulfi (pack Of 2)",
+                              "category": "Matka Kulfi",
+                              "description": "Serves 1 | Our pack of 2 Kulfis, served in matkas, re-create the yester-years together. Enjoy these Desi Malai matkas made with special Rabdi slow-churned for hours. Kcal/serving: 195",
+                              "imageId": "zqhopbugymolxmwqyral",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14407,
+                              "finalPrice": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "51 ratings",
+                                  "ratingCountV2": "51"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343492",
+                              "name": "Desi Malai Slice Kulfi (pack Of 3)",
+                              "category": "Slice Kulfi",
+                              "description": "Serves 1 | Pack of 3 Kulfi slices bundled for every occasion big or small! Enjoy our Desi Malai Kulfi in all its glory, 1 is just not be enough! Kcal/serving: 215",
+                              "imageId": "nsrvvftbrwrqezswgjqn",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16102,
+                              "finalPrice": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "55 ratings",
+                                  "ratingCountV2": "55"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Stick Kulfi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343536",
+                              "name": "Shahi Gulkand Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | This desi kulfi is folded with aromatic Gulkand into 100% Pure milk Rabdi slow-churned for hours. Kcal/serving: 161",
+                              "imageId": "ibgyfkmcyfyoeq9pfrp4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "70 ratings",
+                                  "ratingCountV2": "70"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343533",
+                              "name": "Alphonso Mango Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | Enjoy Summer-y Kulfi made with the King of Fruits -- Alphonso Mango pulp is combines with rich milk Rabdi, slow-churned for hours. Kcal/serving: 148",
+                              "imageId": "jugrtzpblxxgfg2akq2q",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "104 ratings",
+                                  "ratingCountV2": "104"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343529",
+                              "name": "Anjeer Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | This royal-like treat, is loaded with Anjeer (figs) folded into creamy 100% Pure milk Rabdi slow-churned for hours, fits perfectly for the small wins in life! Kcal/serving: 164",
+                              "imageId": "nnnz36fpds12nvtzokuc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "35 ratings",
+                                  "ratingCountV2": "35"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343522",
+                              "name": "Butterscotch Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | Say Hi! to our kulfi made trendy, with crunchy Butterscotch bits folded into a creamy 100% Pure milk Rabdi slow-churned for hours. Kcal/serving: 163",
+                              "imageId": "tu2zuyflbvfi1fyf3plg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343520",
+                              "name": "Chocolate Stick Kulfi",
+                              "category": "Stick Kulfi",
+                              "description": "Serves 1 | A Chocolate lover's delight, made special with decadent Chocolate folded into 100% pure milk Rabdi slow-churned for hours. Kcal/serving: 166",
+                              "imageId": "ofp4d0pglfvpdcd4hrso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5932,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "50 ratings",
+                                  "ratingCountV2": "50"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Matka Kulfi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343519",
+                              "name": "Desi Malai Matka Kulfi (pack Of 2)",
+                              "category": "Matka Kulfi",
+                              "description": "Serves 1 | Our pack of 2 Kulfis, served in matkas, re-create the yester-years together. Enjoy these Desi Malai matkas made with special Rabdi slow-churned for hours. Kcal/serving: 195",
+                              "imageId": "zqhopbugymolxmwqyral",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14407,
+                              "finalPrice": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "51 ratings",
+                                  "ratingCountV2": "51"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Slice Kulfi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "66343492",
+                              "name": "Desi Malai Slice Kulfi (pack Of 3)",
+                              "category": "Slice Kulfi",
+                              "description": "Serves 1 | Pack of 3 Kulfi slices bundled for every occasion big or small! Enjoy our Desi Malai Kulfi in all its glory, 1 is just not be enough! Kcal/serving: 215",
+                              "imageId": "nsrvvftbrwrqezswgjqn",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16102,
+                              "finalPrice": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "55 ratings",
+                                  "ratingCountV2": "55"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11222302001478"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Grameen Kulfi",
+                      "area": "Koramangala",
+                      "completeAddress": "s Shop No 241,2nd/D,Main Road 8'th block,Koramangala-560095"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "8fc77096-6471-492b-a2a7-a81d0bbe6d71",
+  "sid": "dskd3532-05ec-4103-b7e4-4f30522007ae",
+  "deviceId": "50d31071-805a-396c-b30f-84b40ac09146",
+  "csrfToken": "sg6JoG08IEYw-X7DUFrJQm9HT7VlG01zmsCcQr0o"
+}

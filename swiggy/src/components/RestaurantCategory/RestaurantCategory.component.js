@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ItemList from "../ItemList/ItemList.component";
-import "./RestaurantCategory.style.scss";
+// import "./RestaurantCategory.style.scss";
 
 const RestaurantCategory = (props) => {
 //   const [show, setShow] = useState(false);

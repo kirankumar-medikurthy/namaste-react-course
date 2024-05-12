@@ -1,4 +1,4 @@
-import React, {lazy, Suspense} from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom";
 import App from "./src/App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -10,6 +10,10 @@ import RestaurantMenu from "./src/components/RestaurantMenu/RestaurantMenu.compo
 
 const CartPage = lazy(() =>
   import("./src/components/CartPage/CartPage.component")
+);
+
+const ContactUs = lazy(() =>
+  import("./src/components/ContactUs/ContactUs.component")
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -28,14 +32,23 @@ const routes = createBrowserRouter([
         element: <AboutUs />,
       },
       {
-        path:"/restaurant/:resId",
-        element: <RestaurantMenu />
-      },{
-        path:"/cart",
-        element: <Suspense>
-          <CartPage/>
-        </Suspense>
-      }
+        path: "/restaurant/:resId",
+        element: <RestaurantMenu />,
+      },
+      {
+        path: "/cart",
+        element: (
+          <Suspense>
+            <CartPage />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/contact",
+        element: (<Suspense>
+          <ContactUs/>
+        </Suspense>)
+      },
     ],
   },
 ]);

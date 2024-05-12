@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./CategoryAccordian.style.scss";
+// import "./CategoryAccordian.style.scss";
 import { useDispatch } from "react-redux";
 import { IMAGE_URL } from "../../utils/constants";
 import { addItem } from "../../utils/Store/cartSlice";

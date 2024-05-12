@@ -1,5 +1,5 @@
 import React from "react";
-import "./Search.style.scss";
+// import "./Search.style.scss";
 
 const Search = ({searchTxt, setSearchTxt, handleRefinedRestaurantData}) => {
     const handleChange = (e) => {
@@ -8,7 +8,7 @@ const Search = ({searchTxt, setSearchTxt, handleRefinedRestaurantData}) => {
   return (
     <div className="search-container">
       <div className="search-bar">
-        <input className="inputText" type="text" placeholder="what are you looking for?" onChange={handleChange} value={searchTxt}/>
+        <input data-testid="searchInput" className="inputText" type="text" placeholder="what are you looking for?" onChange={handleChange} value={searchTxt}/>
       </div>
       <button className="searchBtn" onClick={handleRefinedRestaurantData}>Search</button>
     </div>

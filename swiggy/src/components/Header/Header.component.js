@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./Header.style.scss";
+// import "./Header.style.scss";
 import { NAMASTE_FOOD_DEVELIRY_WEP_APP_LOGO } from "../../utils/constants";
 import { Link } from "react-router-dom";
 import { checkOnlineState } from "../../utils/onlinestatus";
@@ -17,7 +17,7 @@ const Header = () => {
   };
   const { loggedInUser } = useContext(UserContext);
   // subscribing the store to get cart items,using the useSelector hook;
-  const cartItems = useSelector((store)=>store.cart.items)
+  const cartItems = useSelector((store) => store.cart.items);
   return (
     <div className="homepage-container">
       <div className="header-logo-container">
@@ -54,7 +54,9 @@ const Header = () => {
             <Link to="/cart">Cart({cartItems?.length} items)</Link>
           </li>
           <li className="header-navigation-title" onClick={handleBtnTextChange}>
-            <Link to="/login">{btnText}</Link>
+            <Link to="/login">
+              <button>{btnText}</button>
+            </Link>
           </li>
           <li className="header-navigation-title">
             <Link to="#">{loggedInUser}</Link>

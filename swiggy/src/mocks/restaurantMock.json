@@ -1,0 +1,76 @@
+{
+  "info": {
+    "id": "737964",
+    "name": "Wow! Momo",
+    "cloudinaryImageId": "64fd45fd9f44c1737bc446e470bed666",
+    "locality": "KORAMANGALA LAYOUT EXTENSION",
+    "areaName": "KORAMANGALA",
+    "costForTwo": "₹300 for two",
+    "cuisines": [
+      "Tibetan",
+      "Healthy Food",
+      "Asian",
+      "Chinese",
+      "Snacks",
+      "Continental",
+      "Desserts",
+      "Beverages"
+    ],
+    "avgRating": 4.3,
+    "parentId": "1776",
+    "avgRatingString": "4.3",
+    "totalRatingsString": "100+",
+    "sla": {
+      "deliveryTime": 26,
+      "lastMileTravel": 0.1,
+      "serviceability": "SERVICEABLE",
+      "slaString": "25-30 mins",
+      "lastMileTravelString": "0.1 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-05-13 01:00:00",
+      "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "50% OFF",
+      "subHeader": "UPTO ₹100"
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {
+    "context": "seo-data-145b003c-cedf-4876-8c5f-ac1077e14913"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/wow-momo-layout-extension-koramangala-bangalore-737964",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

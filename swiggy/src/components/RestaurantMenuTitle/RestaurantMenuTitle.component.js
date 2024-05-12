@@ -1,5 +1,5 @@
 import React from "react";
-import "./RestaurantMenuTitle.style.scss";
+// import "./RestaurantMenuTitle.style.scss";
 
 const RestaurantMenuTitle = (props) => {
   const {

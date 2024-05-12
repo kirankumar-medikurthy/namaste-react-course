@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { SWIGGY_RESTAURANT_API } from "../../utils/constants";
-import "./RestaurantListing.style.scss";
+// import "./RestaurantListing.style.scss";
 import Shimers from "../shimers/Shimers.component";
 import RestaurantCard, {
   withPromotedLabel,
@@ -81,7 +81,7 @@ const RestaurantListing = () => {
                 <RestaurantCard
                   RestaurantCardData={item}
                   key={item?.info?.id}
-                  loggedInUser={loggedInUser}
+                  // loggedInUser={loggedInUser}
                 />
               )
             )}
