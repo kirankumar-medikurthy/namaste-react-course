@@ -1,0 +1,25 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.productCardContainer {
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+.product-image {
+  width: 100px;
+}
+
+.page {
+  margin: 0px 2px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.active {
+  border: 1px solid red;
+}
