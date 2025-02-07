@@ -1,0 +1,27 @@
+.tabforms-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-box-container {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+}
+.tab-box-navigation-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-header {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.current-tab-content {
+  display: flex;
+  padding: 10px;
+}
