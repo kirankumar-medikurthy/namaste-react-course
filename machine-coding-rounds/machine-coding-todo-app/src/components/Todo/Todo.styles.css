@@ -1,0 +1,72 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  width: 100%;
+}
+.search-input {
+  width: 82%;
+  padding: 10px;
+}
+.add-btn {
+  width: 65px;
+  height: 40px;
+}
+
+.search-item-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-item-box {
+  max-height: 500px;
+  border: 1px solid green;
+  overflow-y: auto;
+}
+
+.navigations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation-item {
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+.task-item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.task-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task-items {
+  width: 100%;
+  padding: 10px;
+}
+.itemName {
+  width: 65% !important;
+  border: 1px solid black;
+}
+.itemTickMark,
+.itemDeleteMark,
+.itemEdit {
+  width: 5%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: skyblue;
+  color: white;
+}
